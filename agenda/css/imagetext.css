@@ -1,0 +1,57 @@
+
+.cont1 {
+  position: relative;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+
+.cont1 img {vertical-align: middle;}
+
+.cont1 .con1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.glow {
+  font-size: 65px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.glow1 {
+  margin-top: 20px;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow1 1s ease-in-out infinite alternate;
+  -moz-animation: glow1 1s ease-in-out infinite alternate;
+  animation: glow1 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #982FD1, 0 0 40px #982FD1, 0 0 30px #982FD1, 0 0 20px #982FD1, 0 0 30px #982FD1;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #982FD1, 0 0 20px #982FD1, 0 0 30px #982FD1, 0 0 20px #982FD1, 0 0 30px #982FD1, 0 0 20px #982FD1;
+  }
+}
